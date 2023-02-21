@@ -29,9 +29,15 @@
 
 .home nav .navbar-brand {
   font-family: "Red Hat Display", sans-serif !important;
-  font-size: 26px;
+  font-size: 1.5rem;
   font-weight: 700 !important;
   color: #fffffe !important;
+}
+
+@media screen and (max-width: 768px) {
+  .home nav .navbar-brand {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -592,10 +598,15 @@
   padding: 5rem 2rem;
 }
 
-.content-3-2 .img-hero {
-  width: 100%;
+.content-3-2 .img-hero img {
+  width: 80%;
   margin-bottom: 3rem;
   z-index: 1;
+}
+
+.content-3-2 .img-hero {
+  justify-content: center;
+  margin-right: 0px;
 }
 
 .content-3-2 .right-column {
@@ -668,6 +679,8 @@
   .content-3-2 .img-hero {
     width: 50%;
     margin-bottom: 0;
+    justify-content: right;
+    margin-right: 25px;
   }
 
   .content-3-2 .right-column {
@@ -683,6 +696,7 @@
 /* Video */
 .empty-2-2 {
   padding: 4rem 2rem 1rem;
+  z-index: 1;
 }
 .empty-2-2 .main-img {
   object-fit: cover;
@@ -720,8 +734,16 @@ h2 {
   background-color: #ff8906;
 }
 
-.empty-2-2 .stroke-card iframe {
-  border: 1px solid black;
+.empty-2-2 iframe {
+  width: 560px;
+  height: 315px;
+}
+
+@media screen and (max-width: 768px) {
+  .empty-2-2 iframe {
+    width: 100%;
+    height: 315px;
+  }
 }
 
 .empty-2-2 .title-caption {
@@ -1239,7 +1261,7 @@ body .left-circle img {
 }
 
 body .right-circle img {
-  z-index: 0;
+  z-index: 1;
   margin-top: -250px;
   position: absolute;
 }
