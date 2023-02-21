@@ -308,7 +308,17 @@
 }
 
 .header-3-3 .hero {
-  padding: 4rem 2rem;
+  padding: 0rem 2rem;
+}
+
+.header-3-3 .mb-img img {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .header-3-3 .mb-img img {
+    width: 70%;
+  }
 }
 
 .header-3-3 .left-column {
@@ -697,7 +707,8 @@
 /* Video */
 .empty-2-2 {
   padding: 4rem 2rem 1rem;
-  z-index: 1;
+  z-index: 2;
+  position: relative;
 }
 .empty-2-2 .main-img {
   object-fit: cover;
@@ -790,7 +801,7 @@ button {
   --arrow-stroke: 2px;
   box-sizing: border-box;
   border: 0;
-  border-radius: 20px;
+  border-radius: 5px;
   color: var(--secondary-color);
   padding: 1em 1.8em;
   background: var(--primary-color);
@@ -1317,7 +1328,7 @@ body .cl-light-blue {
 
 body .contact-us {
   background: #ffffff;
-  padding-top: 125px;
+  padding-top: 25px;
   padding-bottom: 90px;
 }
 
