@@ -227,6 +227,7 @@
 
 .header-3-3 {
   margin-top: 60px;
+  z-index: 1;
 }
 
 .header-3-3 .navbar {
