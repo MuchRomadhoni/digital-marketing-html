@@ -21,15 +21,12 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-offset="0" tabindex="0">
-  <!-- {{-- home --}} -->
-  <section class="home">
-    <div class="abovefold overflow-hidden">
-
-
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark pt-lg-5">
-        <div class="container px-0">
-          <a class="navbar-brand me-0" href="#"> Herva Digital Agency </a>
+  <!-- Navbar -->
+  <section id="navbar-fixed-top" class="fixed-top">
+    <div class="navbar-baru py-lg-2">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container px-md-0">
+          <a class="navbar-brand me-0" href="index.html"> Herva Digital Agency </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -38,19 +35,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto navigation">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Service</a>
+                <a class="nav-link" aria-current="page" href="jasa-iklan-digital.html">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Portofolio</a>
+                <a class="nav-link" aria-current="page" href="social-media-all-in.html">Portofolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Pemesanan</a>
+                <a class="nav-link" aria-current="page" href="manajemen-marketplace.html">Pemesanan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Kontak</a>
+                <a class="nav-link" aria-current="page" href="endorse-influencer.html">Kontak</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Blog</a>
+                <a class="nav-link" aria-current="page" href="conversion-umkm.html">Blog</a>
               </li>
             </ul>
             <ul class="navbar-nav ms-auto authentication">
@@ -60,15 +57,18 @@
               <li class="nav-item me-0 text-center">
                 <a class="nav-link signup" href="#">
                   Sign up
-                  <span class="ms-2"><img
-                      src="https://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content10/dark/arrow-right.png"
-                      alt="arrow" class="img-fluid" /></span>
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+    </div>
+  </section>
+
+  <!-- {{-- home --}} -->
+  <section class="home">
+    <div class="abovefold overflow-hidden">
       <div class="container header position-relative">
         <div class="row">
           <div class="col-lg-6 px-md-0">
@@ -207,8 +207,7 @@
                 suggest you Back to Homepage. -->
         </p>
       </div>
-      <iframe class="mb-5" src="https://www.youtube.com/embed/4blNuJy3T60"
-        title="YouTube video player" frameborder="0"
+      <iframe class="mb-5" src="https://www.youtube.com/embed/4blNuJy3T60" title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </div>
@@ -223,7 +222,8 @@
 
   <!-- Kata Mereka -->
   <section id="testimoni" style="box-sizing: border-box; background-color: #0f0e17">
-    <div class="empty-2-2 position-relative container mx-auto d-flex align-items-center justify-content-center flex-column pb-5"
+    <div
+      class="empty-2-2 position-relative container mx-auto d-flex align-items-center justify-content-center flex-column pb-5"
       style="font-family: 'Red Hat Display', sans-serif">
       <div class="text-center w-100">
         <h1 class="title-text">Apa kata mereka ?</h1>
@@ -934,35 +934,36 @@
   <!-- seminar -->
   <section class="h-100 w-100" style="box-sizing: border-box">
     <div class="header-3-3 container-xxl mx-auto p-0 position-relative" style="font-family: 'Poppins', sans-serif">
-        <div class="mx-auto d-flex flex-lg-row flex-column hero mb-5">
-          <!-- Right Column -->
-          <div class="mb-img right-column d-flex justify-content-center align-middle text-center pe-0">
-            <img class="" src="img/seminar.png" alt="" />
-          </div>
-          <!-- Left Column -->
-          <div class="left-column flex-lg-grow-1 d-flex flex-column justify-content-center align-items-center text-center mb-5">
-            <h1 class="title-text-big">
-              Ada Gak Sih<br class="d-lg-block d-none" />
-              <span style="color: #ff8906">Pelatihan</span>
-              Yang<br class="d-lg-block d-none" />
-              Bikin Usaha
-              <span>Laris</span>
-            </h1>
-            <p class="text-caption">
-              Mau bikin usahamu makin laris di era digital saat ini ?<br class="d-sm-block d-none" />Tenang saja, kami
-              disini bakal bantu kamu
-            </p>
-            <div class="d-flex flex-sm-row flex-column align-items-center mx-auto mx-lg-0 justify-content-center gap-3">
-              <button>
-                Daftar Pelatihan
-                <div class="arrow-wrapper">
-                  <div class="arrow"></div>
-                </div>
-              </button>
-            </div>
-          </div>
-          
+      <div class="mx-auto d-flex flex-lg-row flex-column hero mb-5">
+        <!-- Right Column -->
+        <div class="mb-img right-column d-flex justify-content-center align-middle text-center pe-0">
+          <img class="" src="img/seminar.png" alt="" />
         </div>
+        <!-- Left Column -->
+        <div
+          class="left-column flex-lg-grow-1 d-flex flex-column justify-content-center align-items-center text-center mb-5">
+          <h1 class="title-text-big">
+            Ada Gak Sih<br class="d-lg-block d-none" />
+            <span style="color: #ff8906">Pelatihan</span>
+            Yang<br class="d-lg-block d-none" />
+            Bikin Usaha
+            <span>Laris</span>
+          </h1>
+          <p class="text-caption">
+            Mau bikin usahamu makin laris di era digital saat ini ?<br class="d-sm-block d-none" />Tenang saja, kami
+            disini bakal bantu kamu
+          </p>
+          <div class="d-flex flex-sm-row flex-column align-items-center mx-auto mx-lg-0 justify-content-center gap-3">
+            <button>
+              Daftar Pelatihan
+              <div class="arrow-wrapper">
+                <div class="arrow"></div>
+              </div>
+            </button>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -999,7 +1000,7 @@
           <div class="col-lg-6 col-md-9">
             <div class="list-space">
               <div class="footer-header">
-                <a href="#">Herva Digital Agency</a>
+                <a href="index.html">Herva Digital Agency</a>
               </div>
               <h1>Herva Digital Agency merupakan perusahaan digital marketing agency yang mengerti kebutuhan bisnis anda
                 di bidang internet marketing.</h1>
@@ -1009,7 +1010,7 @@
             <h2 class="footer-text-title text-white">Company</h2>
             <nav class="list-unstyled">
               <li class="list-space">
-                <a href="" class="list-menu">Tentang Kami</a>
+                <a href="index.html" class="list-menu">Tentang Kami</a>
               </li>
               <li class="list-space">
                 <a href="" class="list-menu">Blog</a>
